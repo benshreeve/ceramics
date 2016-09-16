@@ -6,22 +6,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Ben Shreeve: Specialist in problem and requirements identification, remote working strategy and creativity.">
-    <meta name="author" content="Ben Shreeve">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Problem identification and requirements engineering specialist with PhD in remote working strategy and creativity.</title>
+    <title>Creative - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/form.css" rel="stylesheet" type="text/css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Jura|Playfair+Display" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,512 +31,249 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/slippry.min.js"></script>
-	<!-- <script src="js/jquery.js"></script> -->
-    <script src="js/bootstrap.min.js"></script>
-	<script src="http://use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
-	<link rel="stylesheet" href="css/slippry.css">
 
 </head>
 
-<body>
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                <!-- Commented out link to menu - it is superflous
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <!a class="navbar-brand topnav" href="#">Start Bootstrap</a>
-                -->
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                	<!-- Changing the menu
                     <li>
-                        <a href="#GetCreative">About</a>
-                    </li>
-                    -->
-                    <li>
-                        <a href="#WhoamI">About me</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#Myresearch">My Research</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                    	<a href="#forfun">Hobbies</a>
-                    </li>	
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
-<!--------------------------------   -------------------->
-    <!-- Header -->
-    <a name="GetCreative"></a>
-    <div class="intro-header">
-        <div class="container">
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <hr>
+                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
 
+    <section class="bg-primary" id="about">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="intro-message">
-                        <h1>Hi, I'm Ben.</h1>
-                        <h2>Helping your organisation improve creative problem solving.</h2>
-                        <h3 class="crayonheader">Like Captain America (in no way), only with more crayons</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/The_Shreeve" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/in/benshreeve" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">We've got what you need!</h2>
+                    <hr class="light">
+                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Sturdy Templates</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Ready to Ship</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
+    </section>
 
-    </div>
-     <!-- /.intro-header -->
-     
-  <!--------------------------------   -------------------->   
-    <!-- Who am I section -->
-
-	<a  name="WhoamI"></a>
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 col-sm-push-6 col-sm-6">
-                   <!--  <hr class="section-heading-spacer"> -->
-                    <div class="clearfix"></div>
-                    <h2>A little bit about me</h2>
-						<ul type="disc" class="ulist">
-							<li>PhD Student in Management, Lancaster University, UK.</li>
-							<li>Visiting Academic at the University of Auckland, NZ.</li>
-							<li>Business Analyst & Project Manager</br>at British Sugar Plc.</li>
-							<li>APM & ITIL v3. certified.</li>
-							<li>Enthusiastic rock climber, cook, cyclist, bassoonist and conductor</li>
-						</ul>
-                    
-                </div>
-                <div class="col-md-6 col-sm-pull-6 col-sm-6">
-                    <img class="img-responsive" src="img/mug_shot/Mugshot-2.jpg" alt="Man stands in middle of road precariously for selfie in tourist hotspot">
-                </div>
-            </div>
-            
-            
-        <!-- MY SKILLS SECTION -->
-            <div class="row">
-            	<div class="col-md-12">
-            	 <div class="clearfix"></div>
-                    <h2 class="section-heading" style="display: inline">What I am good at...</h2>
-                    <h4 class="crayoncaption" style="display: inline"> my skills</h4>
-                    <!-- <h6 class="crayoncaption" style="display: inline">(I also make an excellent dry martini)</h6>      -->      
-            	</div>
-            </div>        
-            
-            <div class="row">
-                <div class="col-md-4 lead">
-   		<!-- /PROBLEM IDENTIFICATION / REQUIREMENTS ENGINEERING -->
-                	 <h3 class="section-heading">Problem identification & Requirements engineering</h3>
-                	 <p>
-                	 Identifying problems is essential to organisational success. All too often problems are identified and only the symptoms treated. Or worse, the problem is mis-identified resulting in time and resources wasted.  
-                	 </p>
-                	 <p>
-                	 Requirements engineering includes not only the identification of the problem, but the derivation of effective project specifications that resolve the problem.
-					</p>
-					<p>
-					My previous experience includes working as an APM certified project manager and business analyst on a £7m ERP upgrade project. This area has formed the core of my PhD providing a detailed understanding of how teams identify and resolve of problems.
-					</p>
-
-                </div>
-		
-		<!-- /DISTRIBUTED WORKING-->        
-                <div class="col-md-4 lead">
-                	<h3 class="section-heading">Distributed work strategy</h3>
-                	<p>
-                The term distributed working describes a team or organisation that collaborates from multiple locations. There are different magnitudes of distribution, from fully distributed teams that rarely meet face to face, to teams with the freedom to work from home several days a week, yet still retain a limited office presence.
-                	</p>
-                	<p>
-                Distributed working affords a valuable alternative to traditional co-located office-based working. Organisations benefit from reduced overheads as teams no longer require as much expensive office space. Employees meanwhile benefit from a greater work-life balance. 
-                	</p>
-                	<p>
-                 My PhD enables me to advise you on how best to introduce and manage distributed work practices in your organisation.          
-                	</p>
-			    </div>
-		
-		<!-- /CREATIVITY -->             
-                <div class="col-md-4 lead">
-                	 <h3 class="section-heading">... being creative in both</h3>
-                	 <p>
-                Creativity is key to the way that teams recognise, identify and come to understand problems and opportunities. My aim is to help your organisation recognise the importance of creativity, and better incorporate it into your practices and culture. E.P.Torrance, an expert on the subject defines creativity as: 
-            		</p>
-            		<p>            	
-            	"A process of becoming sensitive to problems, deficiencies, gaps in knowledge, missing elements, disharmonies, and so on; identifiying the difficulty; searching for solutions, making guesses, or formulating hypothesis about the deficiencies: testing and retesting these hypotheses and possibly modifying and retesting them; and finally communicating the results." <a href="#citation"><sup>1</sup></a>                
-					</p>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-	</div>
-    
-<!--------------------------------   -------------------->  
-
-    <!-- WHERE I FIT IN -->
-
-	<a  name="WhereIfitin"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-            
-            	<div class="col-md-12">
-                    <!-- <hr class="section-heading-spacer"> -->
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading" style="display: inline">Your organisation</h2>
-                    <h4 class="crayoncaption" style="display: inline"> - and where my skills fit in</h4>
-                </div>
-            
-            </div>
-            
-            <div class="row">
-            	
-            	<div class="col-md-12 whereIfitin">
-                    <img class="img-responsive" src="img/whereIfitin.png" style="width: 60%" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    
- 
- <!--------------------------------   -------------------->  
-
-    <!-- My academic hat -->
-
-	<a  name="Myresearch"></a>
-    <div class="content-section-b">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 lead">
-                    <!-- <hr class="section-heading-spacer"> -->
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading" style="display: inline">My academic hat</h2> 
-                    <h4 class="crayoncaption" style="display: inline"> - the focus of my PhD</h4>
-                    <p class="filler-top">
-                    My PhD aims to prompt discussion about the need for traditional office work. Is it possible for organisations to have teams that work from home and who still tackle complicated projects? Are such teams capable of complex socio-cognitive tasks like designing that require both interaction and creativity and that are typically complicated in co-located design studios. 
-                    </p>
-                    <p>
-                    For my research I have run an extensive series of experiments that compare the performance of local/co-located and remote/distributed teams as they address a number of collaborative creativity activities. These activities are both abstract and complex requiring teams to approach them as problems that require understanding and resolving. I study how these teams think and work together to make sense of the activities as well as differences in creative performance. 
-					</p>                
-                    <h4 class="crayontitle filler-top hidden-xs hidden-sm">My research question...</h4>
-                        				
-                </div>
-            </div>
-			
-			<div class="row hidden-xs hidden-sm">
-			 		<div class="col-md-4 researchQuestion">
-			 			<img class="img-responsive" src="img/workingfromhome.jpg" alt="">
-			 		</div>
-			 	
-			 		<div class="col-md-4 researchQuestion">
-			 			<img class="img-responsive" src="img/creativity.jpg" alt="">
-			 		</div>
-			 	
-			 		<div class="col-md-4 researchQuestion">
-			 			<img class="img-responsive" src="img/officework.jpg" alt="">
-			 		</div>
-			 	
-			</div>
-
-
-			<div class="row hidden-xs hidden-sm">
-			 		<div class="col-md-4 researchQuestion">
-			 			<h4>Are teams that work from home...</h4>
-			 		</div>
-			 	
-			 		<div class="col-md-4 researchQuestion">
-			 			<h4>...as creative...</h4>
-			 		</div>
-			 	
-			 		<div class="col-md-4 researchQuestion">
-			 			<h4>...as traditional, office-based teams?</h4>
-			 		</div>
-			</div>
-
-			<div class="row">
-					<div class="col-md-7 col-md-offset-5 hidden-xs hidden-sm">
-			 			<img class="img-responsive crayonArrowResearch" src="img/arrow1.png" alt="">
-			 			<div class="crayonarrowbubble"><h5 class="crayoncaption">(and therefore as good at identifying and resolving problems)</h5></div>
-			 		</div>
-			 </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-
-<!--------------------------------   -------------------->
-    <!-- Not just an academic -->
-	<a name="forfun"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                  <!--   <hr class="section-heading-spacer"> -->
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading" style="display: inline">Not just work</h2>
-    				<h4 class="crayoncaption" style="display: inline"> - what I get up to in my downtime</h4>
-    
-                    <div class="slider-buffer">
-						<ul id="hobbies">
-							<li><a href="#slide1"><img src="img/slider/Slider-1.jpg" alt=""></a></li>
-							<li><a href="#slide2"><img src="img/slider/Slider-2.jpg" alt=""></a></li>
-							<li><a href="#slide3"><img src="img/slider/Slider-3.jpg" alt=""></a></li>
-							<li><a href="#slide4"><img src="img/slider/Slider-4.jpg" alt=""></a></li>
-							<li><a href="#slide5"><img src="img/slider/Slider-5.jpg" alt=""></a></li>
-							<li><a href="#slide6"><img src="img/slider/Slider-6.jpg" alt=""></a></li>
-							<li><a href="#slide7"><img src="img/slider/Slider-7.jpg" alt=""></a></li>
-							<li><a href="#slide8"><img src="img/slider/Slider-8.jpg" alt=""></a></li>
-							<li><a href="#slide9"><img src="img/slider/Slider-9.jpg" alt=""></a></li>			
-						</ul>
-                	</div>               
-                
-            	</div>
-            </div>
-            
-            <div class="row lead">
-            	<div class="col-md-3">
-            		<h3 class="section-heading">Climbing</h3>
-            		<p>
-            	I love the mental and physical challenge that climbing provides. I take every opportunity I can to get out climbing in the Lancaster area and the Lake District. I especially enjoy the freedom that traditional rock climbing provides, allowing you to explore the landscape in your own way, finding your own approach to a route whilst leaving without making a mark on the crag. 
-            		</p>
-            		<p class="lead hidden-lg hidden-md"><span class="bodycrayon">Favourite Route</span></br>Little Chamonix, Shepherds Crag, Cumbria, UK</p>
-					<p class="lead screenblurb hidden-lg hidden-md"><span class="bodycrayon">Hero</span></br>Shauna Coxsey</p>
-            	</div>
-            	
-            	<div class="col-md-3">
-            		<h3 class="section-heading">Cycling</h3>
-            		<p>
-            	I have been cycling since I was four and have never stopped. Some of my earliest memories are of watching Le Tour de France. I'm happy to leave the epic rides to the pros, pursuing the title of enthusiastic amateur instead. I have enjoyed building up various bikes and look forward to summer days riding not only on my local routes around Lancaster but further afield as well.
-            	</p>
-            	<p class="lead hidden-lg hidden-md">
-    					<span class="bodycrayon">Favourite Ride</span></br>Ax 3 Domaines, Ax-les-Thermes, France 
-    				</p>
-            		<p class="screenblurb hidden-lg hidden-md">
-            			<span class="bodycrayon">Hero</span></br>Marco Pantani
-            		</p>
-            	</div>
-            	
-            	<div class="col-md-3">
-            		<h3 class="section-heading">Music & Conducting</h3>
-            		<p>
-            	I can recall the day someone came to school to show us various woodwind instruments, amongst them the bassoon. I have been playing the bassoon ever since. I am very fortunate to have been part of a wide range of talented ensembles, including several tours of europe. I have recently started to conduct some of my former ensembles. Learning to conduct has taught me a great deal about team management and motivation.
-            		</p>
-            		<p class="hidden-lg hidden-md">
-            			<span class="bodycrayon">Favourite Piece</span></br>Max Bruch Violin Concerto op.26 no.1 in g minor
-            		</p>
-            		<p class="screenblurb hidden-lg hidden-md">
-            			<span class="bodycrayon">Hero</span></br>Gustavo Dudamel
-            		</p>
-            	</div>
-            	
-            	<div class="col-md-3">
-            		<h3 class="section-heading">Cooking</h3>
-            		<p>
-            	I love cooking and taking the time to learn about and find good ingredients. My family have always been foodies, with summers spent harvesting anything and everything on my parents allotment, to my Grandmother who re-branded Thursday as baking day. These days my navigational landmarks are bakeries, butchers, cafés, restaurants, pubs, bars and any other eatery.
-            		</p>
-            		<p class="lead hidden-lg hidden-md">
-            	<span class="bodycrayon">Favourite Recipe Book</span></br>Bread Matters: Why and How to Make Your Own
-            		</p>
-            		<p class="lead screenblurb hidden-lg hidden-md">
-            			<span class="bodycrayon">Hero</span></br>Rachel Khoo
-            		</p>
-            	</div>
-            	
-        	</div>
-
-			<!-- /These extra details will appear on medium and large screens -->
-        	 <div class="row hidden-xs hidden-sm">
-            	<div class="col-md-3">
-					<p class="lead"><span class="bodycrayon">Favourite Route</span></br>Little Chamonix, Shepherds Crag, Cumbria, UK</p>
-					<p class="lead"><span class="bodycrayon">Hero</span></br>Shauna Coxsey</p>
-            	</div>
-            	
-            	<div class="col-md-3">
-            		<p class="lead">
-    					<span class="bodycrayon">Favourite Ride</span></br>Ax 3 Domaines, Ax-les-Thermes, France 
-    				</p>
-            		<p class="lead">
-            			<span class="bodycrayon">Hero</span></br>Marco Pantani
-            		</p>
-            	</div>
-            	
-            	<div class="col-md-3">
-            		<p class="lead">
-            			<span class="bodycrayon">Favourite Piece</span></br>Max Bruch Violin Concerto op.26 no.1 in g minor
-            		</p>
-            		<p class="lead">
-            			<span class="bodycrayon">Hero</span></br>Gustavo Dudamel
-            		</p>
-            	</div>
-            	
-            	<div class="col-md-3">
-            		<p class="lead">
-            	<span class="bodycrayon">Favourite Recipe Book</span></br>Bread Matters: Why and How to Make Your Own
-            		</p>
-            		<p class="lead">
-            			<span class="bodycrayon">Hero</span></br>Rachel Khoo
-            		</p>
-            	</div>
-            	
-        	</div>
-        <!-- /.container -->
-
-		</div>
-	</div>
-
-<!--------------------------------   -------------------->
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-10">
-                    <h2>Get in touch</h2>                    
-				
-					<div class="row">
-						<form action="https://formspree.io/ben.shreeve@gmail.com" method="POST">
-						<div class="content col-md-4" id="contactContent">
-						<div class="formfield">
-								<input type="text" name="name" placeholder="Name">
-								<input type="email" name="_replyto" placeholder="Email address">				
-								<input type="text" name="_gotcha" style="display:none" />
-								<input type="hidden" name="_subject" value="benshreeve.com query" />
-						</div>
-						
-						</div>							
-						<div class="content col-md-6">
-							<textarea class="form-control" id="messageField" name="message" placeholder="Leave me a message here"></textarea>
-							<div class="input btn btn-default btn-lg">
-							<input type="submit" value=" SEND"><i class="fa fa-paper-plane-o"></i><span class="network-name"></span>
-							</div>
-						</div>
-						</form>	
-					</div>
-			</div>
-		</div>
-	</div>
-	</div>
-					
-    <!-- /.banner -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                        <a href="#WhoamI">About me</a>
-						</li>
-						<li class="footer-menu-divider">&sdot;</li>
-						<li>
-							<a href="#Myresearch">My Research</a>
-						</li>
-						<li class="footer-menu-divider">&sdot;</li>
-						<!-- 
-<li>
-							<a href="#CreativeTeams">CreativeTeams</a>
-						</li>
-						<li class="footer-menu-divider">&sdot;</li>
- -->
-						<li>
-							<a href="#forfun">Hobbies</a>
-						</li>
-						<li class="footer-menu-divider">&sdot;</li>	
-						<li>
-							<a href="#contact">Contact</a>
-						</li>
-						<li class="footer-menu-divider">&sdot;</li>	
-						<li>
-							<a href="https://twitter.com/The_Shreeve">Twitter</a>
-						</li>
-						<li class="footer-menu-divider">&sdot;</li>	
-						<li>
-							<a href="https://linkedin.com/in/benshreeve">LinkedIn</a>
-						</li>
-
-                    </ul>
-                    <a  name="citation">
-						<p class="text-muted small">
-						1. E. P. Torrance, Torrance Tests of Creative Thinking: Norms-Technical Manual. Personnel Press / Ginn and Company. Xerox Education Company, 1974, pp. 1–41.</br>
-						</p>
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
                     </a>
-                    <p class="copyright text-muted small">
-                    Copyright &copy; Ben Shreeve 2016. All Rights Reserved
-                    </p>
-                    
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </footer>
-    
-    <script type="text/javascript">
-			jQuery(document).ready(function() {
-				$(function() {
-					var hobbies = $("#hobbies").slippry({
-						 transition: 'fade',
-						 start: 'random',
-// 						 slideCrop: 'height=70%'
-						// useCSS: true,
-						// speed: 5000,
-						// pause: 3000,
-						// auto: true
-						// preload: 'visible',
-						// autoHover: false
-					});
-				});
-			});
-	</script>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
 
 </body>
 
