@@ -1,5 +1,56 @@
 .instagram {
      width: 100%;
-     height: 75%;
-     z-index: -99;
+     height: 100%;
+	 background-color: 333333;
 }
+
+/* 
+ Custom, iPhone Retina 
+@media only screen and (min-width : 320px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 150px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+
+Extra Small Devices, Phones 
+@media only screen and (min-width : 480px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 270px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+
+Small Devices, Tablets@media only screen and (min-width : 768px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 300px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+
+Medium Devices, Desktops@media only screen and (min-width : 992px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 390px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; 
+    }
+
+}
+
+Large Devices, Wide Screens@media only screen and (min-width : 1200px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 470px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+ */
